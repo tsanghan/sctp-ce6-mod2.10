@@ -1,7 +1,8 @@
 module "cdn" {
   source = "terraform-aws-modules/cloudfront/aws"
+  version = "3.4.0"
 
-  comment             = "Tsang Han's awesome CloudFront"
+  comment             = "Tsang Han's awesome CloudFront Part 2"
   enabled             = true
   is_ipv6_enabled     = true
   price_class         = "PriceClass_All"
