@@ -24,8 +24,8 @@ module "cdn" {
   }
 
   default_cache_behavior = {
-    target_origin_id           = "something"
-    viewer_protocol_policy     = "allow-all"
+    target_origin_id       = "something"
+    viewer_protocol_policy = "allow-all"
 
     allowed_methods = ["GET", "HEAD", "OPTIONS"]
     cached_methods  = ["GET", "HEAD"]
